@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-"it's a square class"
+# 0-square.py
+# Brennan D Baraban <375@holbertonschool.com>
+"""Define a class Square."""
 
 
 class Square:
-    "square class with only a private size"
-    def __init__(self, size):
-        self.__size = size
+    """Represent a square."""
+    pass
