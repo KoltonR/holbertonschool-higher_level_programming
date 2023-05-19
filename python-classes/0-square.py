@@ -1,11 +1,8 @@
 #!/usr/bin/python3
-"""Square Class
-
-This class don't do anything for the moment
-
-"""
+"it's a square class"
 
 
 class Square:
-    def __init__(self):
-        pass
+    "square class with only a private size"
+    def __init__(self, size):
+        self.__size = size
