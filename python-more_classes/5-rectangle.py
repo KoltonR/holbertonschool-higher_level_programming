@@ -1,5 +1,7 @@
 #!/usr/bin/python3y
 """Defines a Rectangle class."""
+Rectangle = __import__('5-rectangle').Rectangle
+
 
 
 class Rectangle:
