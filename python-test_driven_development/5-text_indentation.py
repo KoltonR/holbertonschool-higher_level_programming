@@ -16,10 +16,10 @@ def text_indentation(text):
                 continue
             else:
                 flag = 1
-        if flag == 1
+        if flag == 1:
             if a == '?' or a == '.' or a == ':':
                 print(a)
                 print()
                 flag = 0
             else:
-                print(a, ends="")
+                print(a, end="")
