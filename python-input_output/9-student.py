@@ -13,6 +13,6 @@ class Student():
         self.last_name = last_name
         self.age = age
 
-     def to_json(self):
-         """ dictionary representation of a Student instance """
-         return vars(self)
+    def to_json(self):
+        """ dictionary representation of a Student instance """
+        return vars(self)
