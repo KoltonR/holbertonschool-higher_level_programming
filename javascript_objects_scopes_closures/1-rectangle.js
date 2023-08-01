@@ -1,10 +1,11 @@
 #!/usr/bin/node
 
-module.exports = class Rectangle {
+class Rectangle {
+    /* Rectangle class with 2 args w & h */
     constructor (w, h) {
-      if (Number.isInteger(w, h) && h > 3 && w > 3) {
-        this.width = w;
-        this.height = h;
-      }
+      this.width = w;
+      this.height = h;
     }
-  };
+  }
+  
+  module.exports = Rectangle;
